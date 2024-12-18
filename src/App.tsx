@@ -33,7 +33,7 @@ const App2 = () => {
       <iframe
         style={{ display: "none" }}
         id="auth"
-        src="http://localhost:5173/auth/login"
+        src="https://account-dev.bizgem.io/"
       ></iframe>
       <h1>App 2</h1>
       {token ? (
